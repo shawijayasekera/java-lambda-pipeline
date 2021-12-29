@@ -12,12 +12,12 @@ Resources:
       Description: 'Lambda function responsible for processing messages in SQS'
       MemorySize: 512
       Timeout: 15
-      Role: arn:aws:iam::708995052028:role/service-role/LambdaRole
+      Role: arn:aws:iam::832737488364:role/java-lambda-pipeline-lambda-role
       Events:
         SQS1:
           Type: SQS
           Properties:
-            Queue: arn:aws:sqs:us-east-1:708995052028:SimpleSQSForTest
+            Queue: arn:aws:sqs:us-east-2:832737488364:java-lambda.fifo
             BatchSize: 10
       Tags:
         Project-name: my-tutorials
