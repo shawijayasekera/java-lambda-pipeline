@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    BUCKET: pipelines-for-lambda
+    BUCKET: pipeline-for-java-lambda-s3
     JAVA_VERSION: corretto11
     TEMPLATE_OUT_FILE_NAME: template-out.yaml
 
